@@ -1,0 +1,12 @@
+"use strict";
+let placeToVisit = ["paris", "italy", "london", "chaina", "australia"];
+console.log("Originol order:", placeToVisit);
+console.log("Alphabetical order:", placeToVisit.slice().sort());
+console.log("Originol order after sorting:", placeToVisit);
+console.log("Reverse alphabetical order:", placeToVisit.slice().sort().reverse());
+console.log("Originol order after reverse sorting:", placeToVisit);
+placeToVisit.reverse();
+console.log("Reverse order:", placeToVisit);
+placeToVisit.reverse();
+console.log("Back to original order:", placeToVisit);
+console.log("Sorted in alphabetical order:", placeToVisit.slice().sort());
